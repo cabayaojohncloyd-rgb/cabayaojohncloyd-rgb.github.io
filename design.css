@@ -30,16 +30,6 @@ html {
     z-index: 1000;
 }
 
-.hamburger {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-}
-
-#menu-toggle {
-  display: none;
-}
-
 .logo {
     font-family:'Times New Roman', Times, serif;
     color: white;
@@ -292,27 +282,6 @@ section {
 }
 
 @media (max-width: 768px) {
-
-
-      .hamburger {
-        display: block;
-      }
-
-      .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 15px;
-        background: #222;
-        padding: 10px;
-        border-radius: 8px;
-      }
-
-    #menu-toggle:checked + .hamburger + .nav-links {
-        display: flex;
-      }
-    }
 
     .hero-content {
         padding: 60px 20px;
