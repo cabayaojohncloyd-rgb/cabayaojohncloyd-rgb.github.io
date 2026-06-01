@@ -288,7 +288,7 @@ section {
 
     .navbar {
         padding: 10px 5px;
-        flex-direction: column;
+        flex-direction: flex-start;
         align-items: center;
       }
 
