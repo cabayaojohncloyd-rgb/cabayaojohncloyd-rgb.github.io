@@ -248,6 +248,29 @@ h1 {
     color: #7b0fbe;
 }
 
+.contact-info {
+    color: #b0b8c4;
+    margin-bottom: 15px;
+    word-break: break-word;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+
+    background: #7b0fbe;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: #9c2ae6;
+}
+
 section {
     margin: 50px 80px;
 
