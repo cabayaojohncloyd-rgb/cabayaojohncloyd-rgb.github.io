@@ -19,7 +19,7 @@ html {
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    padding: 5px 100px;
+    padding: 5px 120px;
     flex-wrap: wrap;
 
     background: rgba(10, 3, 12, 0.699);
@@ -288,6 +288,7 @@ section {
 
     .navbar {
         flex-direction: flex-start;
+        padding: 5px 15px;
         align-items: center;
       }
 
