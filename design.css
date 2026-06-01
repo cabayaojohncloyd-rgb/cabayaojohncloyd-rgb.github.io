@@ -17,9 +17,9 @@ html {
 
 .navbar {
     display: flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items: center;
-    padding: 5px  80px;
+    padding: 5px  120px;
     flex-wrap: wrap;
 
     background: rgba(10, 3, 12, 0.699);
