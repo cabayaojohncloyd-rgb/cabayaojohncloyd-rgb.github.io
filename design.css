@@ -286,7 +286,6 @@ section {
 @media (max-width: 768px) {
 
     .navbar {
-        padding: 10px 5px;
         flex-direction: flex-start;
         align-items: center;
       }
