@@ -8,6 +8,7 @@ body {
         #08011f
     );
     color: white;
+    padding-top: 60px;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 
 .navbar {
     display: flex;
-    justify-content:left;
+    justify-content:flex-start;
     align-items: center;
     padding: 5px  120px;
     flex-wrap: wrap;
@@ -39,7 +40,8 @@ html {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .nav-links a {
@@ -283,6 +285,17 @@ section {
 }
 
 @media (max-width: 768px) {
+
+    .navbar {
+        padding: 10px 15px;
+        justify-content: space-between;
+      }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+      }
 
     .hero-content {
         padding: 60px 20px;
